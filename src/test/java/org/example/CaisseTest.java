@@ -15,7 +15,7 @@ class CaisseTest {
     @Test
     void estVideFaux() {
         Caisse caisse = new Caisse();
-        caisse.ajouterUnBilletDeCinqDollars();
+        caisse.ajouterUnBilletDeCinqDollars(); // je crois que ce test est dépendant de l'autre (estVideVrai).
         assertFalse(caisse.estVide());
     }
 }
